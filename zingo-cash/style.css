@@ -244,7 +244,7 @@
     display: none;
   }
 }
-@media all and (max-width: 950px) {
+@media all and (max-width: 990px) {
   .wrapper .main .container .main-flexbox {
     flex-direction: column;
   }
@@ -266,7 +266,7 @@
   color: #fff;
   font-size: 1.5em;
 }
-@media all and (max-width: 950px) {
+@media all and (max-width: 990px) {
   .wrapper .after-main .container .class-width {
     text-align: center;
     width: 100%;
