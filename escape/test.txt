@@ -1,6 +1,0 @@
-   <div class="phone"><i class="fa fa-mobile"></i>(416) 555-0000</div>
-              <div class="twitter"><i class="fa fa-twitter"></i>@escape</div>
-              <div class="google"><i class="fa fa-google-plus"></i>plus.com/escape</div>
-              <div class="email"><i class="fa fa-envelope"></i>hello@escape.com</div>
-              <div class="facebook"><i class="fa fa-facebook"></i>facebook.com/escape</div>
-              <div class="pinterest"><i class="fa fa-pinterest-p"></i>pinterest.com/escape</div>
