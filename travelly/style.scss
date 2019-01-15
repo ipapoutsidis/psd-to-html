@@ -1,0 +1,270 @@
+.wrapper {
+  .header {
+    background-image: url(./img/header_logo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    .container {
+      .row {
+        .pos-f-t {
+          .menu {
+            .nav {
+              justify-content: flex-end;
+              .nav-item {
+                a {
+                  color: #323232;
+                  font-size: 0.875rem;
+                  font-family: 'Myriad Pro', serif;
+                  &:hover {
+                    color: #e2f63b;
+                  }
+                }
+              }
+              @media (max-width: 575.98px) {
+                justify-content: center;
+              }
+            }
+          }
+          .navbar-dark {
+            justify-content: flex-end;
+            .navbar-toggler {
+              border: none;
+              .navbar-toggler-icon {
+                font-size: 1.5rem;
+              }
+            }
+          }
+          @media (max-width: 767.98px) {
+            .menu {
+              text-align: center;
+            }
+            .navbar-dark {
+              justify-content: center;
+            }
+          }
+        }
+        @media (max-width: 767.98px) {
+          .col-md-4,
+            {
+            text-align: center;
+          }
+        }
+      }
+      .next {
+        margin-top: 12.5rem;
+        text-align: center;
+        h1 {
+          color: #fff;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 3.25rem;
+          padding-bottom: 2.5rem;
+        }
+        button {
+          border: none;
+          display: inline-block;
+          outline: 0;
+          padding: 0.5625rem;
+          overflow: hidden;
+          text-decoration: none;
+          color: #fff;
+          background-color: #fd4f32;
+          text-align: center;
+          cursor: pointer;
+          white-space: nowrap;
+          width: 7.5rem;
+          &:hover {
+            color: #feff86;
+            background-color: #05445c;
+          }
+        }
+        input {
+          padding: 0.5rem;
+          width: 19.375rem;
+          @media (max-width: 587.98px) {
+            width: auto;
+            padding: 0.57rem;
+          }
+        }
+      }
+    }
+  }
+  .main {
+    background-color: #eeeeee;
+    padding-top: 3.75rem;
+    padding-bottom: 4.375rem;
+    .container {
+      .destinations {
+        h6 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1rem;
+          font-weight: bold;
+        }
+        p {
+          color: #585656;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 0.9375rem;
+        }
+        @media (max-width: 991.98px) {
+          text-align: center;
+        }
+      }
+      .places {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2.5rem;
+        .figure {
+          background-color: #fff;
+          width: 240px;
+          img {
+            max-width: 240px;
+            width: 100%;
+          }
+          .australia,
+          .peru,
+          .usa,
+          .europe {
+            padding: 1rem 0.7rem;
+            width: 100%;
+            h6 {
+              font-family: 'Montserrat', sans-serif;
+              font-size: 0.875rem;
+              color: #323232;
+            }
+            .figure-caption {
+              font-size: 0.8175rem;
+              color: #636262;
+              line-height: 1.1875rem;
+              font-family: 'Open Sans', sans-serif;
+            }
+          }
+          @media (max-width: 1200px) {
+            margin-right: 10px;
+          }
+        }
+        @media (max-width: 991.98px) {
+          text-align: center;
+          display: block;
+        }
+      }
+    }
+  }
+  .section {
+    padding-top: 5rem;
+    padding-bottom: 4.8175rem;
+    background-color: #fff;
+    .container {
+      h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 3.25rem;
+      }
+      .doc {
+        margin-top: 4.375rem;
+        .visa,
+        .accom,
+        .trans {
+          h6 {
+            font-size: 1rem;
+            font-family: serif;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            @media (max-width: 991.98px) {
+             padding: 1rem;
+            }
+          }
+          p {
+            color: #8b8b8b;
+            font-size: 0.9375rem;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.375rem;
+          }
+          @media (max-width: 991.98px) {
+            padding: 1rem 0.5rem;
+          }
+        }
+      }
+      .hot-deal {
+        padding-top: 5rem;
+        text-align: center;
+        h6 {
+          color: #323232;
+          font-family: 'Myriad Pro', serif;
+          text-transform: uppercase;
+        }
+        button {
+          border: none;
+          display: inline-block;
+          outline: 0;
+          padding: 0.5625rem;
+          overflow: hidden;
+          text-decoration: none;
+          color: #fff;
+          background-color: #fd4f32;
+          text-align: center;
+          cursor: pointer;
+          white-space: nowrap;
+          width: 7.5rem;
+          &:hover {
+            color: #feff86;
+            background-color: #05445c;
+          }
+        }
+        input {
+          padding: 0.55rem;
+          width: 22rem;
+          margin-top: 1.875rem;
+          margin-left: -4.0625rem;
+          background-color: #8b8b8b;
+          outline: 0;
+          border: none;
+          opacity: 0.5;
+          @media (max-width: 991.98px) {
+            margin-left: auto;
+          }
+          @media (max-width: 587.98px) {
+            width: auto;
+            padding: 0.57rem;
+          }
+        }
+      }
+    }
+    @media (max-width: 991.98px) {
+      text-align: center;
+    }
+  }
+  .footer {
+    background-color: #8b8b8b;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      .copy {
+        line-height: 1.375rem;
+        font-size: 0.875rem;
+        color: #e4e0e0;
+        padding-top: 0.5rem;
+      }
+      .footer-menu {
+        .nav {
+          li {
+            a {
+              color: #323232;
+              font-size: 0.875rem;
+              font-family: 'Myriad Pro', serif;
+              &:hover {
+                color: #e2f63b;
+              }
+            }
+          }
+          @media (max-width: 991.98px) {
+            justify-content: center;
+          }
+        }
+      }
+      @media (max-width: 991.98px) {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
